@@ -11,3 +11,11 @@ p ,h1{
         margin-top: -82px !important;
     }
   }
+  h1 {
+    display: inline; /* Make the h1 tag behave like an inline element */
+  }
+  
+  .second-part {
+    display: inline; /* Ensure the spans appear on the same line */
+  }
+  

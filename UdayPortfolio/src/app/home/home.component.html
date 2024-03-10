@@ -17,7 +17,11 @@
 
           <p class="hero-subtitle">My name is Uday Prakash More</p>
 
-          <h1 class="headline-lg">I'm a Full Stack Software Developer</h1>
+          <!-- <h1 class="headline-lg">I'm a Full Stack Software Developer</h1> -->
+          <!-- your.component.html -->
+  <h1 class="first-part headline-lg" [@fadeInOut]="animationState">I'm a </h1>
+  <h1 class="second-part headline-lg" [@fadeInOut]="animationState">{{ typingText }}</h1>
+
 
           <p class="hero-text body-md">
             Based in Mumbai, Maharashtra.
