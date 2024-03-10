@@ -13,4 +13,8 @@ a{
       color: black;
     }
   }
-  
+  @media (min-width: 998px) {
+    .label-lg {
+      color:white;
+    }
+  }
